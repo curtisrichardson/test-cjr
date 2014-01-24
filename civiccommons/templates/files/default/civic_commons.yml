@@ -1,0 +1,33 @@
+staging:
+  devise:
+    email: "The Civic Commons <admin@theciviccommons.com>"
+    mailer_host: "staging.theciviccommons.com"
+    pepper: "f5e3fd131040faf20bf2b86f363dcf115cd267d468d403b9bbac37b731fa125db7857b63efa6f322339b5e5deae3b2c4c7677c0f8a1f8ed43653d107dc1a20fb"
+  email:
+    default_email: "staging.server@theciviccommons.com"
+    support_email: 'support@theciviccommons.com'
+    products_services_email: 'jillmzimon@theciviccommons.com'
+  embedly:
+    key: "0568775650dd11e088ae4040f9f86dcd"
+  facebook:
+    api_key: '100707556683597'
+    app_secret: '94f5f9388038bed5afa77112aa8296b6'
+    page_access_token: 'AAACVPFeadcEBAEAzW7ZANeFsfvbV46VQPjLTyE3AV61oan47rIXiHaeLeeoBrb49X1jmEGHZCY4CDix5XncNkNU4dXOGHS9ORJbs3AmAZDZD'
+  mailer:
+    mailchimp: true
+    api_token: "d90d2afcbfc3eefd722786137e6c5fdf-us1"
+    intercept: true
+    intercept_email: "staging.server@theciviccommons.com"
+    weekly_newsletter_list_id: "020c9a83c5"
+  omniauth:
+    full_host: 'https://staging.theciviccommons.com'
+  rails_secret_token: "aad0517542cc7f392b2b44a48a42867e7a0bdd14c9026d069bcbd3e69f1d6051be313aa16f186ad21454afb9d4db2d459439491168530936cda81af373ed405f"
+  smtp:
+    address: "smtp.sendgrid.net"
+    domain: "theciviccommons.com"
+    username: "lisabrewercanter@gmail.com"
+    password: "civic01"
+  security:
+    ssl_login: true
+  twitter:
+      username: "CivicCommons"
